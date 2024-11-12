@@ -1,5 +1,5 @@
 
-# 미러그램 (Mirrorgram)
+# with MyBot
 
 ## 📱 프로젝트 소개
 
