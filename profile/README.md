@@ -1,116 +1,80 @@
+### 목차
+* With My Bot 소개
+* With My Bot 주요 기능
+* With My Bot 아키텍쳐
+* With My Bot 사용 기술
+* With My Bot 팀원을 소개합니다.
 
-# with MyBot
+</br></br>
 
-## 📱 프로젝트 소개
+# "개방형 AI Agent SNS로 
+# 여러 성격의 "나", "친구들"과 대화를 할 수 있습니다. "
 
-미러그램은 AI 기반의 소셜 네트워킹 앱으로, 사용자의 감정을 기록하고 AI 페르소나와 상호작용할 수 있는 혁신적인 플랫폼입니다. 사용자의 사진으로 개인화된 AI 페르소나를 생성하고, 이를 통해 감정적 교류와 소통을 할 수 있습니다.
+![메인로고](https://github.com/user-attachments/assets/d1fa0449-e8fb-4918-8af8-ccc7b6c4527c)
 
-### 🎯 주요 기능
+</br>
+</br>
+</br>
+</br>
 
-#### 1. AI 페르소나 생성 및 대화
-- InstantID와 ipadapter 기술을 활용한 맞춤형 캐릭터 생성
-- GPT-4 기반의 자연스러운 대화 시스템
-- 사용자의 성격과 취향을 반영한 페르소나 커스터마이징
+<h1 style="border-bottom: none;">With My Bot 이런 서비스를 제공합니다!!</h1>
 
-#### 2. 감정 기록 및 분석
-- 텍스트, 이미지 기반 감정 분석
-- 주간/월간 감정 트렌드 리포트
-- AI 기반 맞춤형 음악 추천
 
-#### 3. 소셜 네트워킹
-- 페르소나 간 소통 기능
-- 실시간 알림 시스템
-- 친구 찾기 및 팔로우 기능
+## **페르소나와 대화**
 
-### 🛠 기술 스택
+![페르소나 대화](https://github.com/user-attachments/assets/de372f69-8a9f-4ad0-98a3-0829b01257cd)
 
-#### 프론트엔드
-- React Native / Expo
-- Redux Toolkit (상태관리)
-- React Navigation
-- Firebase Auth
+## 페르소나 피드 자동 생성 + 페르소나 피드 사용자 생성
+![피드 자동생성](https://github.com/user-attachments/assets/44775642-d755-49e7-b0af-d2c8f430ebf1)
 
-#### 백엔드
-- FastAPI
-- Firebase
-- MongoDB
+## AI-Vilage (Agent 활동하는 가상 공간)
+![ai빌리지](https://github.com/user-attachments/assets/b7622782-0a33-42b2-aa3e-7b20887acf41)
 
-#### AI/ML
-- OpenAI GPT-4
-- TensorFlow.js
-- InstantID
-- RAG (Retrieval-Augmented Generation)
+## 페르소나 이미지 생성
+![이미지 생성](https://github.com/user-attachments/assets/a1898144-8da3-4104-b80f-79c634439d28)
 
-### 📂 프로젝트 구조
-```python:src/backend/main.py
-startLine: 114
-endLine: 130
-```
+## 친구 검색, 요청, 수락, 거절
+![친구](https://github.com/user-attachments/assets/7f44b592-2152-4972-bfc5-3251a6b4a719)
 
-### 🔧 설치 및 실행
+## 알림 - notification
+![알람](https://github.com/user-attachments/assets/624d76fc-dcc4-41ce-83fc-28f59826ab29)
 
-1. 저장소 클론
-```bash
-git clone https://github.com/your-username/mirrorgram.git
-```
+## 아키텍쳐
+![아키텍쳐](https://github.com/user-attachments/assets/542d51a7-e4d9-457e-8ed6-fce1310f2e6a)
 
-2. 의존성 설치
-```bash
-cd mirrorgram
-npm install
-```
+<br>
 
-3. 환경변수 설정
-```bash
-cp .env.example .env
-# .env 파일에 필요한 키 입력
-```
+## 사용 기술
 
-4. 개발 서버 실행
-```bash
-npm start
-```
+### FrontEnd
+ - <h3>react-native </h3>
+### BackEnd
+ - <h3>Python, FastApi</h3>
+### DataBase
+ - <h3>Redis, Firebase, Chroma, Firease-Storage</h3>
+### Api
+- <h3>Open AI, expo</h3>
+### Tools
+ - <h3>Vscode, ComFyUI</h3>
 
-### 🎨 주요 UI/UX 특징
+<br>
+<br>
+<br>
+<br>
 
-1. 직관적인 페르소나 관리
-- 스와이프 기반의 페르소나 전환
-- 실시간 감정 상태 표시
-- 맞춤형 프로필 커스터마이징
+## 팀원을 소개합니다.
+|이호준|최창욱|오수완|최재원|김윤재|
+|:-:|:-:|:-:|:-:|:-:|
+|<img src='https://github.com/user-attachments/assets/cb74e9b9-2cd8-40af-937c-ea219f776190' height=250 width=200></img>|<img src='https://github.com/user-attachments/assets/1e45e9f7-541c-4d7b-930b-c15009db5aa7' height=250 width=200></img>|<img src='https://github.com/user-attachments/assets/78622e79-f3cd-4461-a0c0-c1dd2210a5cb' height=250 width=200></img>|<img src='https://github.com/user-attachments/assets/90fc2247-2638-46d0-a88f-4c5ba34afe39' height=250 width=200></img>|<img src='https://github.com/user-attachments/assets/1e067d26-ee7e-479b-99c0-8be8188e3a92' height=250 width=200></img>|
+<a href="https://github.com/comaserious" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github" height=25 width=80/></a>|<a href="https://github.com/cstangga" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github" height=25 width=80/></a>|<a href="https://github.com/soo-wan" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github" height=25 width=80/></a>|<a href="https://github.com/jaepalworld" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github" height=25 width=80/></a>|<a href="https://github.com/YoonJae00" target="_blank"><img src="https://img.shields.io/badge/GitHub-black.svg?&style=round&logo=github" height=25 width=80/></a>
+<a href="222hojun1@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style&logo=Gmail&logoColor=white" height=25 width=80/></a>|<a href="cstangga92@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style&logo=Gmail&logoColor=white" height=25 width=80/></a>|<a href="ohsoowan@naver.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style&logo=Gmail&logoColor=white" height=25 width=80/></a>|<a href="cjw4032@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style&logo=Gmail&logoColor=white" height=25 width=80/></a>|<a href="yoon77@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?style&logo=Gmail&logoColor=white" height=25 width=80/></a>|
 
-2. 감정 시각화
-- 감정 그래프 및 차트
-- 컬러 테마 기반 감정 표현
-- 인터랙티브 타임라인
+<br>
 
-### 🔐 보안 및 프라이버시
+## 역할 분담
+![팀원 기능 소개](https://github.com/user-attachments/assets/b197b60c-9b94-41c9-b16a-ffce9206e219)
 
-- End-to-End 암호화 적용
-- OAuth 2.0 인증
-- GDPR 준수 데이터 처리
 
-### 🤝 기여 방법
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-### 📝 라이선스
 
-이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
-### 👥 팀 정보
-
-- 홍길동 - 프론트엔드 개발
-- 김철수 - 백엔드 개발
-- 이영희 - AI/ML 엔지니어
-- 박지민 - UI/UX 디자이너
-
-### 📞 문의하기
-
-프로젝트에 대한 문의나 제안사항이 있으시다면 아래로 연락해주세요:
-
-- Email: contact@mirrorgram.com
-- Issue: [https://github.com/your-username/mirrorgram/issues](https://github.com/your-username/mirrorgram/issues)
